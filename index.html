@@ -684,20 +684,20 @@
                     <div class="sc-icon"><i class="fal fa-search"></i></div>
                 </div>
                 <div class="bugshot-second-menu-wrap" id="accordionExample">
-                    <h5 type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">BugShot</h5>
+                    <h5 id="option-one" type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">BugShot</h5>
                     <ul class="setting-list bug-menu collapse show" id="collapseOne1" data-parent="#accordionExample">
-                        <li><a href="feedback.html">Feedback</a></li>
-                        <li><a href="archive.html">Archive</a></li>
+                        <li><a href="feedback.html" class="feedback-dash">Feedback</a></li>
+                        <li><a href="archive.html" class="archive-dash">Archive</a></li>
                     </ul>
                     <h5 type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">Hutten Holiday</h5>
                     <ul class="setting-list bug-menu collapse" id="collapseOne2" data-parent="#accordionExample">
-                        <li><a href="feedback.html">Feedback</a></li>
-                        <li><a href="archive.html">Archive</a></li>
+                        <li><a href="feedback.html" class="feedback-dash">Feedback</a></li>
+                        <li><a href="archive.html" class="archive-dash">Archive</a></li>
                     </ul>
                     <h5 type="button" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">Workers Castle</h5>
                     <ul class="setting-list bug-menu collapse" id="collapseOne3" data-parent="#accordionExample">
-                        <li><a href="feedback.html">Feedback</a></li>
-                        <li><a href="archive.html">Archive</a></li>
+                        <li><a href="feedback.html" class="feedback-dash">Feedback</a></li>
+                        <li><a href="archive.html" class="archive-dash">Archive</a></li>
                     </ul>
                 </div>
             </div>
@@ -1239,6 +1239,862 @@
 
 
                     </div> <!-- ./dashboard-main-wrapper -->
+
+                    <div class="dashboard-main-wrapper d-none" id="dashboard-feedback">
+                        <div class="feedback-rw">
+                            <div class="feedback-date">
+                                <h3>11/29/1983</h3>
+                            </div>
+                            <div class="feedback-item-wrapper">
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn" id="show-right-sidebar">Critical</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn yellow-bg">Important</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn">Critical</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn pes-bg">Minor</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn blue-bg">Normal</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                            </div> <!-- ./feedback-item-wrapper -->
+                        </div> <!-- ./feedback-rw -->
+                        <div class="feedback-rw">
+                            <div class="feedback-date">
+                                <h3>11/29/1983</h3>
+                            </div>
+                            <div class="feedback-item-wrapper">
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn" id="show-right-sidebar">Critical</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn yellow-bg">Important</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                            </div> <!-- ./feedback-item-wrapper -->
+                        </div> <!-- ./feedback-rw -->
+                        <div class="feedback-rw">
+                            <div class="feedback-date">
+                                <h3>11/29/1983</h3>
+                            </div>
+                            <div class="feedback-item-wrapper">
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn" id="show-right-sidebar">Critical</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn yellow-bg">Important</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn">Critical</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn pes-bg">Minor</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn blue-bg">Normal</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                            </div> <!-- ./feedback-item-wrapper -->
+                        </div> <!-- ./feedback-rw -->
+                        <div class="feedback-rw">
+                            <div class="feedback-date">
+                                <h3>11/29/1983</h3>
+                            </div>
+                            <div class="feedback-item-wrapper">
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn" id="show-right-sidebar">Critical</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn yellow-bg">Important</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn">Critical</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn pes-bg">Minor</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap type-2">
+                                            <div class="task-title">
+                                                <h5>Eget metus amet</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Priority</p>
+                                                    <button class="round-btn status-btn blue-bg">Normal</button>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./single-task-wrap -->
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                            </div> <!-- ./feedback-item-wrapper -->
+                        </div> <!-- ./feedback-rw -->
+                    </div> <!-- #/dashboard-feedback main-wrapper -->
+
+                    <div class="dashboard-main-wrapper d-none" id="dashboard-archive">
+                        <div class="feedback-rw">
+                            <div class="feedback-date">
+                                <h3>11/29/1983</h3>
+                            </div>
+                            <div class="feedback-item-wrapper">
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap">
+                                            <div class="task-title">
+                                                <h5>Make my logo bigger</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton" x-placement="right-start" style="position: absolute; transform: translate3d(11px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Deadline <span>29.02.2020</span></p>
+                                                    <button class="round-btn status-btn">Critical</button>
+                                                </div>
+                                                <div class="assigned-wrap">
+                                                    <p>Assigned To</p>
+                                                    <div class="assigned-member">
+                                                        <span class="assign-member-tooltip"><img src="assets/img/mm-1.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-2.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-3.png" alt=""></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap">
+                                            <div class="task-title">
+                                                <h5>Make my logo bigger</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton" x-placement="right-start" style="position: absolute; transform: translate3d(11px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Deadline <span>29.02.2020</span></p>
+                                                    <button class="round-btn status-btn yellow-bg">Important</button>
+                                                </div>
+                                                <div class="assigned-wrap">
+                                                    <p>Assigned To</p>
+                                                    <div class="assigned-member">
+                                                        <span class="assign-member-tooltip"><img src="assets/img/mm-1.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-2.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-3.png" alt=""></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap">
+                                            <div class="task-title">
+                                                <h5>Make my logo bigger</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton" x-placement="right-start" style="position: absolute; transform: translate3d(11px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Deadline <span>29.02.2020</span></p>
+                                                    <button class="round-btn status-btn blue-bg">Normal</button>
+                                                </div>
+                                                <div class="assigned-wrap">
+                                                    <p>Assigned To</p>
+                                                    <div class="assigned-member">
+                                                        <span class="assign-member-tooltip"><img src="assets/img/mm-1.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-2.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-3.png" alt=""></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                            </div> <!-- ./feedback-item-wrapper -->
+                        </div> <!-- ./feedback-rw -->
+                        <div class="feedback-rw">
+                            <div class="feedback-date">
+                                <h3>11/29/1983</h3>
+                            </div>
+                            <div class="feedback-item-wrapper">
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap">
+                                            <div class="task-title">
+                                                <h5><span class="task-number">3</span> Make my logo bigger</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton" x-placement="right-start" style="position: absolute; transform: translate3d(11px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Deadline <span>29.02.2020</span></p>
+                                                    <button class="round-btn status-btn">Critical</button>
+                                                </div>
+                                                <div class="assigned-wrap">
+                                                    <p>Assigned To</p>
+                                                    <div class="assigned-member">
+                                                        <span class="assign-member-tooltip"><img src="assets/img/mm-1.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-2.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-3.png" alt=""></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap">
+                                            <div class="task-title">
+                                                <h5>Make my logo bigger</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton" x-placement="right-start" style="position: absolute; transform: translate3d(11px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Deadline <span>29.02.2020</span></p>
+                                                    <button class="round-btn status-btn yellow-bg">Important</button>
+                                                </div>
+                                                <div class="assigned-wrap">
+                                                    <p>Assigned To</p>
+                                                    <div class="assigned-member">
+                                                        <span class="assign-member-tooltip"><img src="assets/img/mm-1.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-2.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-3.png" alt=""></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap">
+                                            <div class="task-title">
+                                                <h5>Make my logo bigger</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton" x-placement="right-start" style="position: absolute; transform: translate3d(11px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Deadline <span>29.02.2020</span></p>
+                                                    <button class="round-btn status-btn blue-bg">Normal</button>
+                                                </div>
+                                                <div class="assigned-wrap">
+                                                    <p>Assigned To</p>
+                                                    <div class="assigned-member">
+                                                        <span class="assign-member-tooltip"><img src="assets/img/mm-1.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-2.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-3.png" alt=""></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                            </div> <!-- ./feedback-item-wrapper -->
+                        </div> <!-- ./feedback-rw -->
+                        <div class="feedback-rw">
+                            <div class="feedback-date">
+                                <h3>11/29/1983</h3>
+                            </div>
+                            <div class="feedback-item-wrapper">
+                                <div class="dashboard-column type-2">
+                                    <div class="dashboard-task-wrap">
+                                        <div class="single-task-wrap">
+                                            <div class="task-title">
+                                                <h5>Make my logo bigger</h5>
+                                                <div class="dropright task-dropdown">
+                                                    <span class="v-dot" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/dot.svg" alt=""></span>
+                                                    <ul class="dropdown-menu task-dropdown-list" aria-labelledby="dropdownMenuButton" x-placement="right-start" style="position: absolute; transform: translate3d(11px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                        <li><a href="#"><i class="far fa-arrow-right"></i> Move To</a>
+                                                            <ul class="ts-subdropdown">
+                                                                <li><a href="#"><span class="done-dot red"></span> Backlog</a></li>
+                                                                <li><a href="#"><span class="done-dot light-purple"></span> Todo</a></li>
+                                                                <li><a href="#"><span class="done-dot purple"></span> Doing</a></li>
+                                                                <li><a href="#"><span class="done-dot yellow"></span> Under Review</a></li>
+                                                                <li><a href="#"><span class="done-dot"></span> Done</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fal fa-archive"></i> Archive</a></li>
+                                                        <li><a href="#"><img src="assets/img/trash.svg" alt=""> Delete Task</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="task-content-wrap">
+                                                <div class="deadline-status">
+                                                    <p>Deadline <span>29.02.2020</span></p>
+                                                    <button class="round-btn status-btn">Critical</button>
+                                                </div>
+                                                <div class="assigned-wrap">
+                                                    <p>Assigned To</p>
+                                                    <div class="assigned-member">
+                                                        <span class="assign-member-tooltip"><img src="assets/img/mm-1.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-2.png" alt=""></span>
+                                                        <span><img src="assets/img/mm-3.png" alt=""></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- ./dashboard-task-wrap -->
+                                </div> <!-- ./dashboard-column -->
+                            </div> <!-- ./feedback-item-wrapper -->
+                        </div> <!-- ./feedback-rw -->
+                    </div> <!-- #/dashboard-archive main-wrapper -->
+
                 </div> <!-- ./dashboard-main-scrollwrapper -->
             </div> <!-- ./main-content-inner-wrp -->
         </div> <!-- ./main-conent-wrap -->

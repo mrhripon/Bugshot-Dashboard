@@ -238,6 +238,11 @@ div[data-relative="yes"] {
 	background: transparent;
 	padding: 0 15px;
   }
+  .input-design.center {
+	text-align: center;
+	font-weight: 500;
+	font-size: 24px;
+}
   .input-design:focus {
 	  border-radius: 30px;
 	  background-color: #fff;
@@ -745,7 +750,7 @@ div[data-relative="yes"] {
 	font-size: 13px;
   }
   .invite-rw-wrap {
-	margin-bottom: 45px;
+	margin-bottom: 28px;
 	max-height: 0;
 	overflow: hidden;
 	transition: .3s;
@@ -1310,7 +1315,11 @@ div[data-relative="yes"] {
 	font-size: 15px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	transition: .3s;
   }
+  .setting-list.bug-menu li a.active {
+	background: #C2F8E4;
+}
   .setting-list.bug-menu {
 	border-bottom: 0;
 	margin-bottom: 0;
@@ -2168,7 +2177,9 @@ body.sp-class.overlay-2::after {
 	max-width: 40px;
 	margin-left: 2px;
   }
-  
+  .billing-card .checkBox.type-radio[aria-expanded="true"] {
+	pointer-events: none;
+}
 .billing-cl-content p {
 	font-size: 14px;
 	color: #000;
@@ -2357,6 +2368,10 @@ body.sp-class.overlay-2::after {
 	justify-content: space-between;
 	margin-bottom: 12px;
   }
+  .p-involved-member-title.grid {
+	display: grid;
+	grid-template-columns: auto 120px;
+}
   .p-involved-member-title h5 {
 	font-size: 14px;
 	color: #1F0237;
@@ -2392,10 +2407,13 @@ body.sp-class.overlay-2::after {
 	align-items: center;
 	cursor: pointer;
 }
-  .remove-member img {
+.remove-member img {
 	max-width: 15px;
-	margin-right: 10px;
-  }
+	margin-right: 8px;
+}
+.table.involve-table tr td:last-child {
+	font-size: 12px;
+}
   .invite-peopel-to-project {
 	border-top: 2px solid #F4F4F5;
 	margin-top: 50px;
@@ -3296,4 +3314,7 @@ body.overlay-2::after {
   .feedback-rw {
 	margin-bottom: 15px;
   }
+  #dashboard.hide {
+	display: none;
+}
   /* feedback page css end */

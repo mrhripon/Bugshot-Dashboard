@@ -40,8 +40,13 @@
             })
 
             document.addEventListener('click', function(e){
+
+                // When click on close-task-details-bar
                 if(e.target.parentElement.className == 'close-task-details-bar') {
                     $('.task-details-fixed-bar').removeClass('show');
+                    $('#user-adding-wrap').removeClass('show');
+                    $('body').removeClass('overlay');
+                    $('#date-adding-wrap').removeClass('show');
                 } else {
                     $('.sp-class').on('click','.single-task-wrap, .task-details-fixed-bar, .banner-slider-wrapper', function(){
                         var self = $('.task-details-fixed-bar');
@@ -86,6 +91,47 @@
             $('#date-adding-wrap').removeClass('show');
             $('body').removeClass('overlay');
         })
+
+
+
+
+        //script for feedback and archive page
+
+        $('.setting-list.bug-menu').on('click', function(event){
+            event.preventDefault();
+            if(event.target.className === 'feedback-dash') {
+                document.querySelectorAll('.setting-list.bug-menu li a').forEach(function(each){
+                    each.classList.remove('active');
+                })
+                event.target.classList.add('active');
+                $('#dashboard-feedback').addClass('d-block');
+                $('#dashboard').addClass('hide');
+            }
+
+            if(event.target.className === 'archive-dash') {
+                document.querySelectorAll('.setting-list.bug-menu li a').forEach(function(each){
+                    each.classList.remove('active');
+                })
+                event.target.classList.add('active');
+                $('#dashboard-archive').addClass('d-block');
+                $('#dashboard-feedback').removeClass('d-block');
+                $('#dashboard').addClass('hide');
+            }
+        })
+
+        $('#option-one').on('click', function(){
+            $('#dashboard-archive').removeClass('d-block');
+            $('#dashboard-feedback').removeClass('d-block');
+            $('#dashboard').removeClass('hide');
+        })
+
+        // $('.setting-list.bug-menu li a').on('click', function(event){
+        //     event.preventDefault();
+        //     document.querySelectorAll('.setting-list.bug-menu li a').forEach(function(each){
+        //         each.classList.remove('active');
+        //     })
+        //     $(this).addClass('active');
+        // })
 
 
 
